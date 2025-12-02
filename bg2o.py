@@ -7,7 +7,7 @@ st.title("📊 Indian Budget Dashboard (2014–2025)")
 st.write("Dataset is automatically loaded from the repository.")
 
 # Load CSV directly from GitHub repo folder
-df = pd.read_csv("Department_Budget_2014_to_2025.csv")
+df = pd.read_csv("BG1.csv")
 
 # Show dataset
 st.subheader("📄 Dataset Preview")
